@@ -1,7 +1,5 @@
 # Jordans-Portfolio
 
-Jordans Portfolio
-
 - ALWAYS check for correct syntax
 
 - Add necessary Pseudocode and Comments thorughout files

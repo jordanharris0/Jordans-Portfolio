@@ -1,0 +1,29 @@
+/* header style */
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+#links {
+  font-size: x-large;
+}
+a {
+  color: antiquewhite;
+  margin: 5px;
+}
+/* body style */
+body {
+  background-color: antiquewhite;
+}
