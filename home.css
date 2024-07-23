@@ -23,7 +23,23 @@ a {
   color: antiquewhite;
   margin: 5px;
 }
+
 /* body style */
 body {
   background-color: antiquewhite;
+}
+
+/* img style */
+img {
+  height: 500px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* about style */
+#about {
+  font-weight: 600;
 }
