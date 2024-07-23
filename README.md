@@ -4,7 +4,7 @@ Jordans Portfolio
 
 - ALWAYS check for correct syntax
 
-- Add necissary Pseudocode and Comments thorughout files
+- Add necessary Pseudocode and Comments thorughout files
 
 - Include 3 pages (Home, About, Portfolio)
 
