@@ -15,3 +15,9 @@
 - Create routine javascript "Hello World" via external file
 
 - Commit correct files
+
+- Add contact page
+
+- Include form in contact page
+
+- Add success.js file and apply code
