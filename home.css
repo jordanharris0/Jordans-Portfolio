@@ -12,6 +12,27 @@ body {
   margin: 0 auto; */
 }
 
+/* font edits */
+h2 {
+  display: block;
+  font-size: 40px;
+  margin: 20px;
+  width: 450px;
+}
+h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+p {
+  font-size: 18px;
+  margin: 15px;
+}
+#about-header {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px;
+}
+
 /* header style */
 nav {
   box-shadow: 0 0 12px -2px black;
@@ -50,6 +71,8 @@ main {
 /* img style */
 #self {
   height: 300px;
+  float: right;
+  margin: 10px;
 }
 .container {
   display: flex;
@@ -87,4 +110,41 @@ textarea {
   display: block;
   font-size: 60px;
   margin: 10px;
+}
+
+/* Section Styling */
+.hobbies {
+  border-top: 2px solid black;
+  font-size: 16px;
+}
+
+/* about img styling */
+.hobbies:nth-of-type(2n + 1) > img {
+  float: right;
+  margin: 0 24px 24px 24px;
+}
+.hobbies:nth-of-type(2n) img {
+  float: left;
+  margin: 0 24px 24px 0;
+}
+.hobbies:nth-of-type(2n + 1) > img {
+  float: right;
+  margin: 0 24px 24px 24px;
+}
+
+/* footer style */
+footer {
+  background-color: black;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
+.img {
+  width: 50px;
 }
