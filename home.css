@@ -7,11 +7,6 @@ html {
   background-color: rgba(250, 235, 215, 0.562);
 }
 
-/* body style */
-/* body 
-  /* max-width: 900px;
-  margin: 0 auto; */
-
 /* -------------- font styling -------------- */
 h2 {
   display: block;
@@ -22,6 +17,13 @@ h2 {
 h3 {
   font-size: 25px;
   margin: 20px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  border-bottom: 2px solid black;
 }
 p {
   font-size: 18px;
@@ -132,6 +134,20 @@ textarea {
   margin: 0 24px 24px 24px;
 }
 
+/* -------------- Media Queries -------------- */
+@media (max-width: 700px) {
+  #home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  }
+}
 /* -------------- footer style -------------- */
 footer {
   background-color: black;
