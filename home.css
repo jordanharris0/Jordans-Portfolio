@@ -1,3 +1,4 @@
+/* -------------- All Styling -------------- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,12 +8,11 @@ html {
 }
 
 /* body style */
-body {
+/* body 
   /* max-width: 900px;
   margin: 0 auto; */
-}
 
-/* font edits */
+/* -------------- font styling -------------- */
 h2 {
   display: block;
   font-size: 40px;
@@ -33,7 +33,7 @@ p {
   margin: 10px;
 }
 
-/* header style */
+/* -------------- header style -------------- */
 nav {
   box-shadow: 0 0 12px -2px black;
   position: fixed;
@@ -56,10 +56,13 @@ div {
 }
 a {
   color: antiquewhite;
+}
+a:hover {
+  color: white;
   margin: 5px;
 }
 
-/* main style */
+/* -------------- main style -------------- */
 main {
   background-color: antiquewhite;
   padding: 85px 24px 96px;
@@ -68,7 +71,8 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
-/* img style */
+
+/* -------------- img style -------------- */
 #self {
   height: 300px;
   float: right;
@@ -77,20 +81,16 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  margin: 0 auto;
+  width: 100%;
 }
 
-/* about style */
-#about {
-  font-weight: 600;
-}
-
-/* home style */
+/* -------------- home style -------------- */
 #home {
   font-weight: 600;
 }
 
-/* form style */
+/* -------------- form style -------------- */
 form {
   font-size: 20px;
   font-weight: bold;
@@ -112,13 +112,13 @@ textarea {
   margin: 10px;
 }
 
-/* Section Styling */
+/* -------------- Section Styling -------------- */
 .hobbies {
   border-top: 2px solid black;
   font-size: 16px;
 }
 
-/* about img styling */
+/* -------------- about img styling -------------- */
 .hobbies:nth-of-type(2n + 1) > img {
   float: right;
   margin: 0 24px 24px 24px;
@@ -132,7 +132,7 @@ textarea {
   margin: 0 24px 24px 24px;
 }
 
-/* footer style */
+/* -------------- footer style -------------- */
 footer {
   background-color: black;
   height: 70px;
